@@ -5,7 +5,7 @@ using TechTalk.SpecFlow;
 namespace ExecutionContext.App.Tests;
 
 [Binding]
-public class UserStartup(Reqnroll.ScenarioContext scenarioContext)
+public class UserStartup(ScenarioContext scenarioContext)
 {
     [BeforeScenario]
     public void BeforeScenario()

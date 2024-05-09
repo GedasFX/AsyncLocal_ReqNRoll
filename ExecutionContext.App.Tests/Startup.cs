@@ -4,7 +4,7 @@ using TechTalk.SpecFlow;
 namespace ExecutionContext.App.Tests;
 
 [Binding]
-public class Startup(Reqnroll.ScenarioContext scenarioContext)
+public class Startup(ScenarioContext scenarioContext)
 {
     [BeforeTestRun]
     public static void BeforeTestRun()
